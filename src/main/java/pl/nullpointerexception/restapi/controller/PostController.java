@@ -15,7 +15,7 @@ public class PostController {
 
     }
 
-    @GetMapping("/posts")
+    @GetMapping("/post")
     public Post getSinglePost() {
         throw new IllegalArgumentException("Not imported yet");
 
